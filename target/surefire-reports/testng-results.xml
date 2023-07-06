@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T20:32:54 IST" name="Suite" finished-at="2023-07-06T20:32:57 IST" duration-ms="3071">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T20:32:54 IST" name="Test" finished-at="2023-07-06T20:32:57 IST" duration-ms="3071">
+      <class name="qa.LoginTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:qa.LoginTest@1a4013]" started-at="2023-07-06T20:32:39 IST" name="initBrowser" finished-at="2023-07-06T20:32:54 IST" duration-ms="15458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:qa.LoginTest@1a4013]" started-at="2023-07-06T20:32:54 IST" name="createObject" finished-at="2023-07-06T20:32:55 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="verifyLoginCredentials()[pri:1, instance:qa.LoginTest@1a4013]" started-at="2023-07-06T20:32:55 IST" name="verifyLoginCredentials" finished-at="2023-07-06T20:32:57 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginCredentials -->
+        <test-method signature="verifyLoginButtonFun()[pri:2, instance:qa.LoginTest@1a4013]" started-at="2023-07-06T20:32:57 IST" name="verifyLoginButtonFun" finished-at="2023-07-06T20:32:57 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonFun -->
+      </class> <!-- qa.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
