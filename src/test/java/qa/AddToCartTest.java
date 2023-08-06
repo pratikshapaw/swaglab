@@ -7,7 +7,7 @@ public class AddToCartTest extends BaseTest {
 	@Test(priority=3)
 	public void verifySort()
 	{
-		addtocart.sortDropdown("Price (low to high)");
+		addtocart.sortDropdown("Price (high to low)");
 	}
 	
 	@Test(priority=4)

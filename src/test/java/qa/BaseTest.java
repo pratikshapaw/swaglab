@@ -10,7 +10,7 @@ import pages.Login;
 
 public class BaseTest {
 	
-	WebDriver driver;
+	public static WebDriver driver;
 	Login login;
 	AddToCart addtocart;
 	
@@ -19,9 +19,7 @@ public class BaseTest {
 	{
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.saucedemo.com/");
-		
-		
+		driver.get("https://www.saucedemo.com/");	
 	}
 	
 	@BeforeClass

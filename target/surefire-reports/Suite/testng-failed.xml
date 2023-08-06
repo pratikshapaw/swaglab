@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="qa.LoginTest">
+      <class name="qa.AddToCartTest">
         <methods>
-          <include name="verifyLoginButtonFun"/>
           <include name="initBrowser"/>
-          <include name="verifyLoginCredentials"/>
+          <include name="verifyAddToCart"/>
+          <include name="verifySort"/>
           <include name="createObject"/>
         </methods>
-      </class> <!-- qa.LoginTest -->
+      </class> <!-- qa.AddToCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

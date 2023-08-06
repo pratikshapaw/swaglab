@@ -17,7 +17,7 @@ public class Login {
 	public Login(WebDriver driver)
 	{
 		this.driver=driver;
-		PageFactory.initElements( driver,this);
+		PageFactory.initElements(driver,this);
 	}
 	
 	public void enterCredentials() throws InterruptedException
